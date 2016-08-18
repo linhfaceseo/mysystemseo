@@ -223,7 +223,7 @@ z-index: 999999;
 list-style: none;
 }
 #menu-primary li a {
-padding: 0px 18px;
+padding: 0px 10px;
 color: #ffffff;
 font: bold 13px/45px 'PT Sans', Arial, sans-serif;
 text-transform: uppercase;
