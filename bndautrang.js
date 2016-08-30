@@ -109,15 +109,15 @@
     }//orbit plugin call
 })(jQuery);
         
-JQuery(window).load(function() {
+jQuery(window).load(function() {
 		if(document.cookie.indexOf("adf") == -1)
 		{
 			document.cookie = "adfpopunder1=adf";
 			var divpopup = document.createElement("div");
-			JQuery(divpopup).attr('id', 'myModal');
-			JQuery(divpopup).attr('class', 'linhnguyen-modal');
-			JQuery( "body" ).append(divpopup);
-			JQuery("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='http://faceseo.vn/bannerweb/hoc-seo-chuyen-sau.jpg' width='500px'/><br/>13 Kỹ thuật đẩy top vượt trội</a>. Học tại nhà CEO Faceseo. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
-			JQuery('#myModal').linhnguyen(JQuery('#myModal').data());
+			jQuery(divpopup).attr('id', 'myModal');
+			jQuery(divpopup).attr('class', 'linhnguyen-modal');
+			jQuery( "body" ).append(divpopup);
+			jQuery("#myModal").html("<a href='http://goo.gl/rKJWvA' target='_blank'><img src='http://faceseo.vn/bannerweb/hoc-seo-chuyen-sau.jpg' width='500px'/><br/>13 Kỹ thuật đẩy top vượt trội</a>. Học tại nhà CEO Faceseo. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			jQuery('#myModal').linhnguyen(jQuery('#myModal').data());
 		}
 });
